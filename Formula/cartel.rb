@@ -13,7 +13,7 @@ class Cartel < Formula
     sha256 cellar: :any_skip_relocation, big_sur: "54527b4c5d8d9a7694df2b8681dfb982cc3bd5fe4c7de7c018e36db14484e1a8"
   end
 
-  depends_on "rust-nightly" => :build
+  #depends_on "rust-nightly" => :build
 
   def install
     system "cargo", "build", "--release", "--all"
