@@ -2,12 +2,12 @@ require_relative "lib/private_strategy"
 
 class Cartel < Formula
   desc "Local development service orchestrator"
-  homepage "https://github.com/xdrop/cartel"
-  url "https://github.com/xdrop/cartel/archive/0.11.1-beta.tar.gz"
+  homepage "https://github.com/weslien/cartel"
+  url "https://github.com/weslien/cartel/archive/0.11.1-beta.tar.gz"
   sha256 "5a8f1cb2d1b31c9fd735a847a4b193a0aba3b2da813bbcee40029a83e07ed833"
 
   bottle do
-    root_url "https://github.com/xdrop/cartel/releases/download/0.11.1-beta"
+    root_url "https://github.com/weslien/cartel/releases/download/0.11.1-beta"
     sha256 cellar: :any_skip_relocation, mojave: "54527b4c5d8d9a7694df2b8681dfb982cc3bd5fe4c7de7c018e36db14484e1a8"
     sha256 cellar: :any_skip_relocation, catalina: "54527b4c5d8d9a7694df2b8681dfb982cc3bd5fe4c7de7c018e36db14484e1a8"
     sha256 cellar: :any_skip_relocation, big_sur: "54527b4c5d8d9a7694df2b8681dfb982cc3bd5fe4c7de7c018e36db14484e1a8"
